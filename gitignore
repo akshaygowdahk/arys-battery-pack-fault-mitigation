@@ -1,0 +1,26 @@
+# MATLAB / Simulink
+*.asv
+*.m~
+slprj/
+*.slxc
+*.mex*
+*.mexw64
+*.mexmaci64
+*.mexa64
+codegen/
+work/
+
+# Simulink cache
+*.slx.r*
+*.slx.autosave
+
+# MATLAB data
+*.mat
+!results/logs/*.mat
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
